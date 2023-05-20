@@ -1,0 +1,32 @@
+Clonar un repositorio:
+git clone <link del repositorio>
+
+Crear un repositorio local:
+git init
+
+Confirmar el estado del repo actual:
+git status
+
+Agregar cambios del repositorio para posteriormente commitear:
+git add <Nombre del archivo que quieras agregar> (Para agregar todos los archivos haces "Git add .")
+
+Confirmar los cambios del repositorio
+git commit -am "Mensaje descriptivo de los cambios hechos"
+
+Enviar cambios al repositorio remoto
+git push origin <Nombre de branch>
+
+Traer los cambios hechos por tus compañeros del repositorio remoto:
+Git pull origin <Nombre de la branch>
+
+Crear y cambiarse a una nueva branch
+git checkout -b <nombre de la nueva branch>
+
+Fusionar branches
+git merge <nombre de la branch>
+
+Listar todas las branch's
+git branch
+
+
+
